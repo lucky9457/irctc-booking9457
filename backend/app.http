@@ -1,0 +1,101 @@
+###
+
+POST http://localhost:4001/register/
+Content-Type: application/json
+
+{   
+    "user_name":"mallesh",
+    "email": "malli@gmail.com",
+    "ph_no":"9876543210",
+    "password": "mallesh"
+    
+}
+
+
+###
+
+POST http://localhost:4001/login/
+Content-Type: application/json
+
+{
+    "user_name":"charan",
+    "password": "charan"
+}
+
+
+###
+
+POST http://localhost:4001/addtrain/
+Content-Type: application/json
+
+{
+    "train_name":"Bangalore_express",
+    "seats": 24,
+    "available" : "true",
+    "filled" : 0,
+    "station" : 2
+}
+
+
+
+
+###
+
+
+
+PUT http://localhost:4001/booking/
+Content-Type: application/json
+
+{
+    "user_id": 11,
+    "train_id" : 2,
+    "train_name": "chennai_express"
+}
+
+
+
+###
+
+POST http://localhost:4001/bookingDetails/
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoia2FpcmEiLCJpYXQiOjE3MTcxMzIyMzZ9.S0x2EsHZKwr-u7OHcDxhYmsc0ZEPFfp55x6KNStwblo
+Content-Type: application/json
+
+{
+    "user_id":11
+    
+}
+
+
+
+###
+
+GET http://localhost:4001/user/
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoia2FpcmEiLCJpYXQiOjE3MTcxMzIyMzZ9.S0x2EsHZKwr-u7OHcDxhYmsc0ZEPFfp55x6KNStwblo
+
+
+
+###
+
+POST http://localhost:4001/getDetails/
+Content-Type: application/json
+
+{
+    "station": 2
+    
+}
+
+###
+DELETE http://localhost:4001/user/10/
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoia2FpcmEiLCJpYXQiOjE3MTcxMzIyMzZ9.S0x2EsHZKwr-u7OHcDxhYmsc0ZEPFfp55x6KNStwblo
+
+
+
+
+
+
+
+
+
+
+
+

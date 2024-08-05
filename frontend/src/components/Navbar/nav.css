@@ -1,0 +1,23 @@
+.align{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    height: 80px;
+
+}
+.item{
+    margin: 20px;
+}
+.logout-desktop-btn {
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #4f46e5;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    padding: 12px 42px;
+  }

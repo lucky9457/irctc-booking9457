@@ -1,0 +1,93 @@
+.first-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.text-center {
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.results-container {
+  margin-top: 20px;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #130e0e;
+  text-align: center;
+  color: white;
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+.button{
+  margin-top: 20px;
+  background-color: rgb(89, 141, 232);
+  color:white;
+}
+.username-input-field1{
+  color: black;
+}
+.registration-container{
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 30px;
+}
+.form1-container2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.input-container1{
+  margin: 15px;
+}
+.input-label1{
+  margin-right: 30px;
+  font-weight: bold;
+  font-size: 24px;
+}
+.submit-button1{
+  background-color: rgb(114, 114, 239);
+  border-radius: 12px;
+  border: none;
+  color: white;
+}
